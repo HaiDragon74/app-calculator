@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">App Calculator</string>
+    <string name="history">History</string>
+    <string name="result">=</string>
 </resources>

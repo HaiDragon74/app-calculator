@@ -2,17 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/liner_calculate"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CalculateActivity">
+    tools:context=".activity.CalculateActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_history"
+            android:text="@string/history"
+            style="@style/MaterialAlertDialog.Material3"/>
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:gravity="center_vertical"
         android:padding="10dp">
+
 
         <EditText
             android:id="@+id/edt_Calculation"
@@ -21,7 +33,8 @@
             android:layout_alignParentEnd="true"
             android:textSize="50sp"
             android:textStyle="bold"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:autofillHints="" />
 
         <TextView
             android:id="@+id/tv_Result"
@@ -54,7 +67,7 @@
                 android:layout_weight="1">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_7"
+                    android:id="@+id/btn_seven"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -65,7 +78,7 @@
                     tools:ignore="HardcodedText,NestedWeights" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_8"
+                    android:id="@+id/btn_eight"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -76,7 +89,7 @@
                     tools:ignore="HardcodedText" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_9"
+                    android:id="@+id/btn_nine"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -94,7 +107,7 @@
                 android:layout_weight="1">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_4"
+                    android:id="@+id/btn_four"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -105,7 +118,7 @@
                     tools:ignore="HardcodedText,NestedWeights" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_5"
+                    android:id="@+id/btn_five"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -116,7 +129,7 @@
                     tools:ignore="HardcodedText" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_6"
+                    android:id="@+id/btn_six"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -134,7 +147,7 @@
                 android:layout_weight="1">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_1"
+                    android:id="@+id/btn_one"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -145,7 +158,7 @@
                     tools:ignore="HardcodedText,NestedWeights" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_2"
+                    android:id="@+id/btn_tow"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -156,7 +169,7 @@
                     tools:ignore="HardcodedText" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_3"
+                    android:id="@+id/btn_three"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -174,7 +187,7 @@
                 android:layout_weight="1">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_0"
+                    android:id="@+id/btn_zero"
                     style="@style/ThemeOverlay.Material3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

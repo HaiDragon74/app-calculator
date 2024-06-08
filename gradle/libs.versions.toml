@@ -1,7 +1,9 @@
 [versions]
-agp = "8.3.0"
+activityKtx = "1.8.2"
+agp = "8.3.1"
 androidxRoomCompiler = "2.5.0"
 androidxRoomCompilerVersion = "2.4.0"
+androidxRoomRoomCompiler = "2.6.1"
 kotlin = "1.9.0"
 coreKtx = "1.12.0"
 junit = "4.13.2"
@@ -13,18 +15,20 @@ lifecycleViewmodelKtx = "2.7.0"
 material = "1.11.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
-roomCompilerVersion = "2.4.6"
-roomRuntime = "2.6.1"
-roomCompiler = "2.6.1"
-roomRuntimeVersion = "2.4.0"
+roomCompilerVersion = "2.5.0"
+roomRuntime = "2.5.0"
+roomCompiler = "2.5.0"
+roomRuntimeVersion = "2.5.0"
 
 [libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-room-compiler-v240 = { module = "androidx.room:room-compiler", version.ref = "androidxRoomCompilerVersion" }
 androidx-room-compiler-v246 = { module = "androidx.room:room-compiler", version.ref = "roomCompilerVersion" }
 androidx-room-compiler-v250 = { module = "androidx.room:room-compiler", version.ref = "androidxRoomCompiler" }
+androidx-room-compiler-v261 = { module = "androidx.room:room-compiler", version.ref = "androidxRoomRoomCompiler" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }

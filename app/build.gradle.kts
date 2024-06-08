@@ -50,8 +50,10 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.androidx.room.runtime.v240)
     annotationProcessor (libs.androidx.room.compiler.v240)
-    kapt(libs.androidx.room.compiler.v240)
+    kapt(libs.androidx.room.compiler.v261)
     implementation (libs.kotlinx.coroutines.core)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.activity.ktx)
 }

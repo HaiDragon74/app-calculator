@@ -13,10 +13,10 @@
         android:theme="@style/Theme.AppCalculator"
         tools:targetApi="31">
         <activity
-            android:name=".HistoryActivity"
+            android:name=".activity.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".CalculateActivity"
+            android:name=".activity.CalculateActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

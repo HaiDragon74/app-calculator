@@ -9,23 +9,31 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:id="@+id/tv_time"/>
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_below="@id/tv_time"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/result"
             android:textSize="50sp"
+            android:layout_below="@id/tv_calculation"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_alignParentEnd="true"
             android:id="@+id/tv_calculation" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="50sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tv_calculation"
             android:id="@+id/tv_item_result" />
-    </LinearLayout>
+    </RelativeLayout>
 
 
 

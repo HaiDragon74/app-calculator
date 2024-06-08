@@ -4,14 +4,12 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.voduchuy.appcalculator.Calculator
-import java.math.MathContext
+import com.voduchuy.appcalculator.model.Calculator
 
-@Database(entities = [Calculator::class], version = 1, exportSchema = false)
+@Database(entities = [Calculator::class], version = 1)
 abstract class CalculateDatabase:RoomDatabase() {
     abstract fun dao():Dao
     companion object{
-        @Volatile
         private var INSTANCE:CalculateDatabase?=null
         fun getCalculateDatabase(context: Context):CalculateDatabase{
             var instance= INSTANCE
@@ -23,7 +21,7 @@ abstract class CalculateDatabase:RoomDatabase() {
                     context.applicationContext,
                     CalculateDatabase::class.java,
                     "table_calculate"
-                ).build()
+                ).allowMainThreadQueries().build()
                 instance=newInstance
                 return newInstance
             }
