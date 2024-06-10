@@ -1,1 +1,1 @@
-<iframe width="560" height="315" src=" https://photos.app.goo.gl/wrobuQMhTiZjcvrc6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Hướng Dẫn](https://example.com/screenshot.jpg)](https://photos.app.goo.gl/wrobuQMhTiZjcvrc6)
