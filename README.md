@@ -1,1 +1,1 @@
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/dQw4w9WgXcQ](https://www.youtube.com/watch?v=uXMHI8z0WVc&list=RDMMuXMHI8z0WVc&start_radio=1)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Hướng Dẫn](https://img.youtube.com/vi/uXMHI8z0WVc/0.jpg)](https://www.youtube.com/watch?v=uXMHI8z0WVc)
